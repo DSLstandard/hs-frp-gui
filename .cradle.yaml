@@ -1,0 +1,19 @@
+cradle:
+  stack:
+    - path: "./app/"
+      component: "./Vlgui:exe:Vlgui-exe/"
+    - path: "./src/"
+      component: "./Vlgui:exe:Vlgui-exe/"
+    - path: "./package.yaml"
+      component: "./Vlgui:exe:Vlgui-exe/"
+    - path: "./stack.yaml"
+      component: "./Vlgui:exe:Vlgui-exe/"
+
+    - path: "./test/"
+      component: "./Vlgui:test:Vlgui-test/"
+    - path: "./src/"
+      component: "./Vlgui:test:Vlgui-test/"
+    - path: "./package.yaml"
+      component: "./Vlgui:test:Vlgui-test/"
+    - path: "./stack.yaml"
+      component: "./Vlgui:test:Vlgui-test/"
